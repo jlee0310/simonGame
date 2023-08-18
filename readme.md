@@ -11,10 +11,19 @@ Welcome to the Simon Game repository! This project is a web-based implementation
 - Enjoy sound effects and animations to enhance gameplay.
 - Track your highest score and strive to beat it.
 
-## Getting Started
+## How to Play
+Click the "Start" button to initiate the game.
+Observe the sequence of colors displayed.
+Repeat the sequence by clicking the colored buttons in the correct order.
+If you succeed, the game will progress to the next level with a longer sequence.
+If you make a mistake, the game will end, and your highest score will be displayed.
 
-1. Clone the repository:
+## Technologies Used
+HTML
+CSS
+JavaScript
 
-   ```bash
-   git clone https://github.com/yourusername/simon-game.git
-   ```
+## Acknowledgments
+Sounds from freesound.org
+Icons from FontAwesome
+Background pattern from Subtle Patterns
