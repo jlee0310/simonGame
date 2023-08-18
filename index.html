@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Game</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" href="images/favicon.ico" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="px-3 py-2 text-bg-dark border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+          <img class="bi me-2" src="images/simonLogo.png" width="42" height="42">
+          <span class="fs-4" style="font-family: 'Press Start 2P', cursive;">Simon Game</span>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+          <li>
+            <a href="#" class="nav-link text-white" style="font-family: 'Press Start 2P', cursive;">
+              <img class="bi d-block mx-auto mb-1" src="images/home.png" width="24" height="24">
+              Home
+            </a>
+          </li>
+          <!-- <li>
+            <a href="#" class="nav-link text-white" style="font-family: 'Press Start 2P', cursive;">
+              <img id="rankingButton" class="bi d-block mx-auto mb-1" src="/trophy.png" width="24" height="24">Ranking
+            </a>
+          </li> -->
+          <li>
+            <a href="#" class="nav-link text-white" style="font-family: 'Press Start 2P', cursive;"
+              data-bs-toggle="modal" data-bs-target="#contactModal">
+              <img class="bi d-block mx-auto mb-1" src="images/email.png" width="28" height="24">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="highest-score pt-5">
+      <p></p>
+    </div>
+
+    <div class="simonBoard">
+      <div type="button" id="green" class="pad green"></div>
+      <div type="button" id="red" class="pad red"></div>
+      <div type="button" id="yellow" class="pad yellow"></div>
+      <div type="button" id="blue" class="pad blue"></div>
+      <div class="controls">
+        <div class="display">
+          <p>SIMON</p>
+
+        </div>
+      </div>
+    </div>
+    <button class="startGame">Start Game</button>
+    <footer class="py-auto mt-auto text-center">
+      <p class="text-body-secondary pt-3 mt-4" style="font-family: 'Press Start 2P', cursive;">JLee © 2023
+      </p>
+    </footer>
+  </div>
+
+  <!-- Contact modal -->
+  <div class="modal" id="contactModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="fw-bold mb-auto" style="font-family: 'Press Start 2P', cursive;">* Get in touch *</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5">
+          <p>Shoot me an email if you..</p>
+          <ul class="d-grid gap-2 my-4 list-unstyled small">
+            <li class="d-flex align-items-center">
+              <span class="ms-2">- Have questions</span>
+              <img class="bi d-block mx-auto mb-1" src="images/question.png" width="35" height="35">
+            </li>
+            <li class="d-flex align-items-center">
+              <span class="ms-2">- Found a bug</span>
+              <img class="bi d-block mx-auto mb-1" src="images/bug.png" width="35" height="35">
+            </li>
+            <li class="d-flex align-items-center">
+              <span class="ms-2">- Just wanna say hi</span>
+              <img class="bi d-block mx-auto mb-1" src="images/hello.png" width="35" height="35">
+            </li>
+          </ul>
+          <button id="copyButton" type="button" class="btn btn-info d-inline-flex" onclick="copyEmail()">
+            jiwonlee310@gmail.com
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
