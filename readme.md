@@ -12,11 +12,13 @@ Welcome to the Simon Game repository! This project is a web-based implementation
 - Track your highest score and strive to beat it.
 
 ## How to Play
-Click the "Start" button to initiate the game.
-Observe the sequence of colors displayed.
-Repeat the sequence by clicking the colored buttons in the correct order.
-If you succeed, the game will progress to the next level with a longer sequence.
-If you make a mistake, the game will end, and your highest score will be displayed.
+1. Visit [Website](https://www.yourwebsite.com/simon-game) or Clone the repository.
+2. Click the "Start" button to initiate the game.
+3. Observe the sequence of colors displayed.
+4. Repeat the sequence by clicking the colored buttons in the correct order.
+5. If you succeed, the game will progress to the next level with a longer sequence.
+6. If you make a mistake, the game will end, and your highest score will be displayed.
+
 
 ## Technologies Used
 HTML
