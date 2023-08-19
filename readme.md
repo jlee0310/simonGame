@@ -12,7 +12,7 @@ Welcome to the Simon Game repository! This project is a web-based implementation
 - Track your highest score and strive to beat it.
 
 ## How to Play
-1. Visit [My Website](https://www.yourwebsite.com/simon-game) or Clone the repository.
+1. Visit [My Website](https://jlee0310.github.io/simonGame/) or Clone the repository.
 2. Click the "Start" button to initiate the game.
 3. Observe the sequence of colors displayed.
 4. Repeat the sequence by clicking the colored buttons in the correct order.
