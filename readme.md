@@ -21,9 +21,9 @@ Welcome to the Simon Game repository! This project is a web-based implementation
 
 
 ## Technologies Used
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Acknowledgments
 - Sounds from freesound.org
